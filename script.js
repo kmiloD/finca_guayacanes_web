@@ -109,9 +109,9 @@ document.addEventListener("DOMContentLoaded", () => {
             fact2: "Antioquia",
             fact3: "Colombia",
 
-            video: "assets/finca_completa.mp4",
+            video: "finca_completa.mp4",
 
-            poster: "assets/cafetal.svg"
+            poster: "cafetal.svg"
         },
 
 
@@ -135,9 +135,9 @@ document.addEventListener("DOMContentLoaded", () => {
             fact2: "Montañoso",
             fact3: "Cultivo",
 
-            video: "assets/cosecha.mp4",
+            video: "cosecha.mp4",
 
-            poster: "assets/cafetal.svg"
+            poster: "cafetal.svg"
         },
 
 
@@ -160,9 +160,9 @@ document.addEventListener("DOMContentLoaded", () => {
             fact2: "Cosecha",
             fact3: "Calidad",
 
-            video: "assets/VID_20260806_152429.mp4",
+            video: "VID_20260806_152429.mp4",
 
-            poster: "assets/fruto.svg"
+            poster: "fruto.svg"
         },
 
 
@@ -186,9 +186,9 @@ document.addEventListener("DOMContentLoaded", () => {
             fact2: "Proceso",
             fact3: "Café",
 
-            video: "assets/coffee_bean.mp4",
+            video: "coffee_bean.mp4",
 
-            poster: "assets/proceso.svg"
+            poster: "proceso.svg"
         }
 
     ];
