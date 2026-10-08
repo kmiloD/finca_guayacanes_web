@@ -1,0 +1,689 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description"
+        content="Conoce Finca Guayacanes, en Jardín, Antioquia. Una historia de territorio, cultivo y café.">
+
+    <title>Finca Guayacanes — Jardín, Antioquia</title>
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS principal -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+
+    <!-- =========================================
+         BARRA DE PROGRESO
+    ========================================== -->
+
+    <div class="progress">
+        <span id="progressBar"></span>
+    </div>
+
+
+    <!-- =========================================
+         MENÚ SUPERIOR
+    ========================================== -->
+
+    <header class="topbar">
+
+        <a class="brand" href="#inicio">
+            FINCA <span>GUAYACANES</span>
+        </a>
+
+        <a class="location" href="#historia">
+            JARDÍN · ANTIOQUIA
+        </a>
+
+    </header>
+
+
+    <main>
+
+
+        <!-- =========================================
+             HERO
+             VIDEO PRINCIPAL DE FONDO
+        ========================================== -->
+
+        <section class="hero" id="inicio">
+
+            <div class="hero-media">
+
+                <video
+                    class="hero-video"
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                    preload="metadata"
+                    poster="assets/territorio.svg">
+
+                    <source
+                        src="assets/DJI_20260605090343_0010_D.MP4"
+                        type="video/mp4">
+
+                    Tu navegador no soporta video HTML5.
+
+                </video>
+
+                <!-- Imagen de respaldo -->
+                <div class="video-fallback"></div>
+
+            </div>
+
+
+            <!-- Capa oscura sobre el video -->
+            <div class="hero-overlay"></div>
+
+
+            <!-- Texto principal -->
+
+            <div class="hero-copy">
+
+                <p class="eyebrow">
+                    JARDÍN · ANTIOQUIA · COLOMBIA
+                </p>
+
+                <h1>
+                    Hay historias<br>
+                    que <em>nacen en la tierra.</em>
+                </h1>
+
+                <p class="lead">
+                    Te invitamos a conocer la Finca Guayacanes:
+                    un recorrido por el territorio, el cafetal
+                    y el cuidado que acompaña cada etapa del café.
+                </p>
+
+                <a
+                    class="scroll-cue"
+                    href="#territorio">
+
+                    DESCUBRIR LA FINCA
+
+                    <span>↓</span>
+
+                </a>
+
+            </div>
+
+
+            <div class="hero-note">
+                UN RECORRIDO DESDE EL ORIGEN
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================================
+             HISTORIA
+        ========================================== -->
+
+        <section
+            class="intro"
+            id="historia">
+
+            <div class="intro-inner">
+
+                <p class="eyebrow">
+                    NUESTRA HISTORIA
+                </p>
+
+                <h2>
+                    Un lugar.<br>
+                    Muchas historias.
+                </h2>
+
+                <p>
+                    En las montañas de Jardín, Antioquia,
+                    cada paisaje guarda una parte de la
+                    historia del café.
+
+                    Esta experiencia te invita a recorrer
+                    Guayacanes y descubrirla paso a paso.
+                </p>
+
+                <p class="small-note">
+                    El sueño de una familia que, con amor, esfuerzo y dedicación, 
+                    ha ido dejando un pedacito de su historia en cada rincón. 
+                    Aquí, entre el verde de las montañas del suroeste antioqueño, 
+                    el aire fresco y el abrazo de la naturaleza, cada planta crece 
+                    y cada grano de café cuenta una historia: la de una familia 
+                    que encontró en esta tierra un lugar para soñar, trabajar y 
+                    construir un futuro.
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================================
+             RECORRIDO CINEMATOGRÁFICO
+             EL VIDEO CAMBIA DURANTE EL SCROLL
+        ========================================== -->
+
+        <section
+            class="story"
+            id="territorio">
+
+
+            <div class="story-pin">
+
+
+                <!-- =====================================
+                     ÁREA VISUAL
+                ====================================== -->
+
+                <div class="scene">
+
+
+                    <!-- Video dinámico -->
+
+                    <video
+                        class="scene-video"
+                        id="sceneVideo"
+                        autoplay
+                        muted
+                        loop
+                        playsinline
+                        preload="metadata"
+                        poster="assets/territorio.svg">
+
+                        <source
+                            id="sceneVideoSource"
+                            src="assets/VID_20260806_152429.mp4"
+                            type="video/mp4">
+
+                        Tu navegador no soporta video HTML5.
+
+                    </video>
+
+
+                    <!-- Imagen de respaldo -->
+
+                    <img
+                        class="scene-img"
+                        id="sceneImg"
+                        src="assets/woman-8147979.jpg"
+                        alt="Paisaje de Finca Guayacanes">
+
+
+                    <!-- Oscurecimiento -->
+
+                    <div class="scene-vignette"></div>
+
+
+                    <!-- Número / etiqueta -->
+
+                    <div
+                        class="scene-label"
+                        id="sceneLabel">
+
+                        01 · TERRITORIO
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- =====================================
+                     TEXTO DEL RECORRIDO
+                ====================================== -->
+
+                <div class="story-copy">
+
+                    <p
+                        class="eyebrow"
+                        id="eyebrow">
+
+                        EL TERRITORIO
+
+                    </p>
+
+
+                    <h2 id="storyTitle">
+
+                        Todo comienza<br>
+                        en este lugar.
+
+                    </h2>
+
+
+                    <p id="storyText">
+
+                        Jardín, Antioquia:
+                        un territorio de montañas,
+                        agua y cultura cafetera.
+
+                    </p>
+
+
+                    <!-- Datos -->
+
+                    <div class="facts">
+
+                        <div>
+
+                            <strong id="fact1">
+                                Jardín
+                            </strong>
+
+                            <span>
+                                municipio
+                            </span>
+
+                        </div>
+
+
+                        <div>
+
+                            <strong id="fact2">
+                                Antioquia
+                            </strong>
+
+                            <span>
+                                departamento
+                            </span>
+
+                        </div>
+
+
+                        <div>
+
+                            <strong id="fact3">
+                                Colombia
+                            </strong>
+
+                            <span>
+                                País
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Indicadores -->
+
+                    <div
+                        class="step-dots"
+                        id="dots">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================================
+             MAPA / VISTA AÉREA
+        ========================================== -->
+
+        <section class="map-section">
+
+            <div class="map-card">
+
+                <p class="eyebrow">
+                    MIRA LA FINCA DESDE ARRIBA
+                </p>
+
+                <h2>
+                    Un paisaje que podemos explorar.
+                </h2>
+
+                <p>
+                    En una siguiente versión podremos
+                    integrar una fotografía aérea real,
+                    un ortomosaico o una experiencia
+                    interactiva de la finca.
+                </p>
+
+
+                <div class="fake-map">
+
+                    <img 
+                        src="assets/DJI_20260605090051_0002_D.jpg" 
+                        alt="Ortomosaico de Finca Guayacanes"
+                        class="ortomosaico-img"
+                    >
+
+                    <span class="lot l1">
+                        CAFETAL
+                    </span>
+
+                    <span class="lot l2">
+                        CAMINO
+                    </span>
+
+                    <span class="lot l3">
+                        FINCA
+                    </span>
+
+
+                    <span class="map-pin p1">
+                        ☕
+                    </span>
+
+                    <span class="map-pin p2">
+                        💧
+                    </span>
+
+                    <span class="map-pin p3">
+                        ⌂
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================================
+             TRANSICIÓN CON VIDEO
+        ========================================== -->
+
+        <section class="transition">
+
+
+            <video
+                class="transition-video"
+                autoplay
+                muted
+                loop
+                playsinline
+                preload="metadata"
+                poster="assets/cafetal.svg">
+
+                <source
+                    src="assets/coffee_prep.mp4"
+                    type="video/mp4">
+
+                Tu navegador no soporta video HTML5.
+
+            </video>
+
+
+            <div class="transition-overlay"></div>
+
+
+            <div>
+
+                <p class="eyebrow">
+                    SIGAMOS EL RECORRIDO
+                </p>
+
+                <h2>
+                    Del paisaje<br>
+                    <em>a cada detalle.</em>
+                </h2>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================================
+             GALERÍA DE VIDEOS
+        ========================================== -->
+
+        <section class="gallery">
+
+
+            <div class="gallery-head">
+
+                <p class="eyebrow">
+                    POSTALES DE GUAYACANES
+                </p>
+
+                <h2>
+                    La finca, de cerca.
+                </h2>
+
+                <p>
+                    Una mirada más cercana al cafetal,
+                    el fruto y el proceso.
+                </p>
+
+            </div>
+
+
+
+            <div class="gallery-grid">
+
+
+                <!-- CAFETAL -->
+
+                <figure>
+
+                    <div class="media-card">
+
+                        <video
+                            autoplay
+                            muted
+                            loop
+                            playsinline
+                            preload="metadata"
+                            poster="assets/cafetal.svg">
+
+                            <source
+                                src="assets/7116416-uhd_2160_3840_25fps.mp4"
+                                type="video/mp4">
+
+                        </video>
+
+                    </div>
+
+                    <figcaption>
+                        01 / El cafetal
+                    </figcaption>
+
+                </figure>
+
+
+
+                <!-- FRUTO -->
+
+                <figure>
+
+                    <div class="media-card">
+
+                        <video
+                            autoplay
+                            muted
+                            loop
+                            playsinline
+                            preload="metadata"
+                            poster="assets/fruto.svg">
+
+                            <source
+                                src="assets/video (2160p).mp4"
+                                type="video/mp4">
+
+                        </video>
+
+                    </div>
+
+                    <figcaption>
+                        02 / El fruto
+                    </figcaption>
+
+                </figure>
+
+
+
+                <!-- PROCESO -->
+
+                <figure>
+
+                    <div class="media-card">
+
+                        <video
+                            autoplay
+                            muted
+                            loop
+                            playsinline
+                            preload="metadata"
+                            poster="assets/proceso.svg">
+
+                            <source
+                                src="assets/Camino_cafe.mp4"
+                                type="video/mp4">
+
+                        </video>
+
+                    </div>
+
+                    <figcaption>
+                        03 / El proceso
+                    </figcaption>
+
+                </figure>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================================
+             CIERRE
+             VIDEO FINAL
+        ========================================== -->
+
+        <section
+            class="closing"
+            id="contacto">
+
+
+            <div class="closing-bg">
+
+                <video
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                    preload="metadata"
+                    poster="assets/territorio.svg">
+
+                    <source
+                        src="assets/coffee_cup.mp4"
+                        type="video/mp4">
+
+                </video>
+
+            </div>
+
+
+            <div class="closing-overlay"></div>
+
+
+            <div class="closing-copy">
+
+                <p class="eyebrow">
+                    FINCA GUAYACANES ·
+                    JARDÍN, ANTIOQUIA
+                </p>
+
+
+                <h2>
+                    La historia<br>
+                    <em>sigue en tu taza.</em>
+                </h2>
+
+
+                <p>
+                    Gracias por recorrer nuestro origen.
+                    Pronto podremos compartir más detalles
+                    de la finca, sus procesos y sus cafés.
+                </p>
+
+
+                <div class="actions">
+
+                    <a
+                        href="mailto:hola@fincaguayacanes.co"
+                        class="btn primary">
+
+                        CONTACTAR LA FINCA
+
+                    </a>
+
+
+                    <a
+                        href="#inicio"
+                        class="btn ghost">
+
+                        VOLVER AL INICIO ↑
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =========================================
+         FOOTER
+    ========================================== -->
+
+    <footer>
+
+        <span>
+            © 2026 Finca Guayacanes. Elaborado por Martín Duque Estrada.
+        </span>
+
+        <span>
+            Jardín · Antioquia · Colombia
+        </span>
+
+    </footer>
+
+
+
+    <!-- =========================================
+         GSAP
+    ========================================== -->
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+
+
+    <!-- JavaScript propio -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
